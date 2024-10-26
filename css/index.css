@@ -1,0 +1,119 @@
+:root{
+    --main: rgb(22, 22, 36);
+    --box: rgb(196, 191, 191);
+    --maint: rgb(131, 7, 7);
+    --mainp: rgb(221, 3, 3);
+}
+
+*{
+    background-color: var(--main);
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+div{
+    justify-items: center;
+    align-items: center;
+    margin: 100px 0px 0px 170px;
+}
+
+.container{
+    background-color: var(--box);
+    max-width: 60em;
+    padding: 2em;
+    border-radius: 15px;
+}
+
+h1{
+    background-color: var(--box);
+    color: var(--maint);
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.paraph{
+    background-color: var(--box);
+    margin: 20px 0px 0px 0px;
+}
+
+.paraph>p{
+    background-color: var(--box);
+    color:var(--mainp);
+}
+
+.paraph>p>a{
+    background-color: var(--box);
+    color: var(--mainp);
+    text-decoration: none;
+}
+
+.paraph>p>a:hover{
+    background-color: var(--box);
+    color:brown;
+    text-decoration: none;
+}
+
+.content{
+    background-color: var(--box);
+    max-width: 30em;
+    padding: 2em;
+    border-radius: 15px;
+    margin: 50px 0px 0px 400px;
+}
+
+.content>p{
+    background-color: var(--box);
+    color:var(--mainp);
+}
+
+.content>input{
+    background-color: var(--box);
+    color:var(--mainp);
+    border-radius: 5px;
+    border-color: var(--main);
+}
+
+.content>button{
+    background-color: var(--maint);
+    color:beige;
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.content>button:hover{
+    background-color: var(--mainp);
+    color:beige;
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+
+footer{
+    align-items: center ;
+    margin : 154px 0px 0px 0px;
+    position: bottom;
+    justify-content: center;
+    text-align: center;
+    max-width: auto;
+}
+
+
+footer>p{
+    background-color: var(--box);
+    padding: 1em;
+}
+
+footer>p>a{
+    background-color: var(--box);
+}
